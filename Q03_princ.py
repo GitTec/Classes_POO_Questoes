@@ -5,4 +5,4 @@ cachorro02 = Cachorro(nome_animal="re", cor="Branco", idade=5, raca="Poodle")
 cachorro03 = Cachorro(nome_animal="me", cor="Verde", idade=4, raca="Boodogue")
 cachorro04 = Cachorro(nome_animal="fa", cor="Cinza", idade=8, raca="Pastor Alemão")
 
-cachorro.nomeando()
+cachorro01.nomeando()

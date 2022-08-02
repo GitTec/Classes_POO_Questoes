@@ -10,7 +10,6 @@ class Papagaio:
         print(f"OI MEU NOME É {self.nome}")
 
     def oferecer(self, comida):
-        comida=input("QUAL COMIDA DESEJA OFERECER? ")
         if comida == "cha" or comida== "biscoito" or comida=="cafe":
             print(f"O Papagaio {self.nome} está comendo {comida}")
         else:

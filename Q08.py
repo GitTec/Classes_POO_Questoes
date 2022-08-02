@@ -8,12 +8,15 @@ class bola:
         self.circun = circunferencia
         self.material = material
 
+
     def trocarCor(self):
+        trocaCor = input("INFORME A COR DA BOLA: ")
         self.cor = trocaCor
         print(f"A NOVA COR É: {trocaCor}")
+
 
     def mostrarCor(self):
         print(f"A COR DA BOLA É: {self.cor}")
 
 
-trocaCor = input("INFORME A COR DA BOLA: ")
+
