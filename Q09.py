@@ -1,24 +1,20 @@
 class CC:
-    numConta=""
-    nmCorrent=""
-    saldo=0
 
     def __init__(self, numConta, nmCorrent, saldo):
         self.numConta = numConta
         self.nmCorrent = nmCorrent
         self.saldo = saldo
 
-    def alterarNome(self, novoNome):
-        print("Meu novo nome é: ")
-        self.nmCorrent = novoNome
-
+    def alterarNome(self, newNome):
+        print("*"*35)
+        self.nmCorrent = newNome
+        print("NOVO PROPRIETÁRIO DA CONTA: ")
 
     def deposito(self, valDep):
-        #input("Qual valor deseja depositar? ")
         if valDep == 0:
             print("Você não tem o que depositar")
         else:
-            self.saldo = valDep
+            self.saldo = self.saldo + valDep
             print(f"MEU NOVO SALDO É: {self.saldo}")
 
     def saque(self, valSaque):

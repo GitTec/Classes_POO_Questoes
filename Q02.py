@@ -1,8 +1,4 @@
 class Pessoa:
-    nome = ""
-    idade = 0
-    sexo = "M"
-
     def __init__(self, nome, idade, sexo):
         self.nome = nome
         self.idade = idade
